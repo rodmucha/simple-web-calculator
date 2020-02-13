@@ -1,0 +1,9 @@
+/Users/rcarvalho/git/checkmarx-calculator/src/main/java/com/checkmarx/calculator/domain/TokenOperator.java
+/Users/rcarvalho/git/checkmarx-calculator/src/main/java/com/checkmarx/calculator/interfaces/dto/CalculatorErrorResponseDto.java
+/Users/rcarvalho/git/checkmarx-calculator/src/main/java/com/checkmarx/calculator/domain/TokenValue.java
+/Users/rcarvalho/git/checkmarx-calculator/src/main/java/com/checkmarx/calculator/application/Calculator.java
+/Users/rcarvalho/git/checkmarx-calculator/src/main/java/com/checkmarx/calculator/interfaces/dto/CalculatorRequestDto.java
+/Users/rcarvalho/git/checkmarx-calculator/src/main/java/com/checkmarx/calculator/interfaces/dto/CalculatorResponseDto.java
+/Users/rcarvalho/git/checkmarx-calculator/src/main/java/com/checkmarx/calculator/interfaces/dto/validation/CalculatorExpression.java
+/Users/rcarvalho/git/checkmarx-calculator/src/main/java/com/checkmarx/calculator/interfaces/dto/validation/Validator.java
+/Users/rcarvalho/git/checkmarx-calculator/src/main/java/com/checkmarx/calculator/interfaces/CalculatorController.java

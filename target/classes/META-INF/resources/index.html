@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Calculator</h1>
+<form id="form1" method="GET" action="http://localhost:9000/api/calculate" 
+    enctype="application/x-www-form-urlencoded">
+        <label for="expression" style="display:inline">Expression:</label>
+        <input id="expression" name="expression" id="expression" type="text" />
+        <input type="submit" value="Calculate" />
+        <input type="button" value="Calculate through AJAX" onclick="requestToCalculator()"/>
+        <span id="resultContainer"></span>
+</form>
+
+<script>
+    function setResult(res){
+        document.getElementById("resultContainer").innerHTML = res;
+    }
+
+    function requestToCalculator(){
+        var expressionValue = document.getElementById('expression').value;
+        var postData = {expression: expressionValue};
+        var xhr = new XMLHttpRequest();
+        xhr.addEventListener('load', receiveResponse);
+
+        xhr.open('POST', '/api/ajax/calculate');
+        xhr.setRequestHeader('Content-Type', 'application/json')
+        xhr.send(JSON.stringify(postData));
+    }
+
+    function receiveResponse(){
+        var responseData = this.responseText;
+        setResult(responseData);
+    }
+</script>
+
+
+</body>
+
+</html>
+
+
+
+
