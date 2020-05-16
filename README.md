@@ -1,4 +1,4 @@
-# web-calculator project
+# simple-web-calculator project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
